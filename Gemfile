@@ -14,7 +14,7 @@ end
 gem 'SystemTimer', '~> 1.2.0', :require => 'system_timer'
 gem 'whenever', '~> 0.4.1', :require => nil
 gem 'icalendar', '~> 1.1.3'
-gem 'libxml-ruby', '~> 1.1.3', :require => 'libxml'
+gem 'libxml-ruby', '>= 1.1.3', :require => 'libxml'
 gem 'rdiscount', '~> 1.6.3'
 gem 'haml', '~> 3.0.0.beta1'
 gem 'pg', '~> 0.9.0', :require => nil, :group => 'pg'
