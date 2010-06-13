@@ -21,6 +21,8 @@ gem 'pg', '~> 0.9.0', :require => nil, :group => 'pg'
 gem 'aws-s3', '~> 0.6.2', :require => 'aws/s3'
 gem 'hpricot', '~> 0.8.2'
 
+gem 'cucumber'
+
 group :plugins do
   gem 'sprockets-rails', '~> 0.0.1'
   gem 'acts-as-list', '~> 0.1.2', :require => 'acts_as_list'
